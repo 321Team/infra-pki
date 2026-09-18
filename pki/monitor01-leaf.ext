@@ -1,0 +1,11 @@
+# Candidate RSA server profile; no additional DNS or Harbor SAN.
+[ monitor01_leaf ]
+basicConstraints = critical,CA:FALSE
+keyUsage = critical,digitalSignature,keyEncipherment
+extendedKeyUsage = serverAuth
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid,issuer
+subjectAltName = @sans
+
+[ sans ]
+IP.1 = 10.250.10.30
