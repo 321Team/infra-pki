@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "date_kst": "2026-09-17",
+  "method": "snapshot-copy-with-provenance; upstream history and files preserved",
+  "files": [
+    {
+      "source_repository": "321Team/infra-cicd",
+      "source_commit": "90f2f37d9e1ab77252b50e80bca339cfef48bd51",
+      "source_path": "pki/root-ca.cnf",
+      "source_blob": "6263e5817ec7c1b4cccc41663fe7efbe63f1159b",
+      "source_sha256": "c974268472e42ae6c3f2924be0a1415f9720e8ad787716f56aac7a233f1ad9b3",
+      "destination_path": "pki/root-ca.cnf",
+      "destination_blob": "6263e5817ec7c1b4cccc41663fe7efbe63f1159b",
+      "destination_sha256": "c974268472e42ae6c3f2924be0a1415f9720e8ad787716f56aac7a233f1ad9b3",
+      "git_mode": "100644",
+      "transformation": "none",
+      "source_url": "https://github.com/321Team/infra-cicd/blob/90f2f37d9e1ab77252b50e80bca339cfef48bd51/pki/root-ca.cnf"
+    },
+    {
+      "source_repository": "321Team/infra-cicd",
+      "source_commit": "90f2f37d9e1ab77252b50e80bca339cfef48bd51",
+      "source_path": "pki/harbor-csr.cnf",
+      "source_blob": "b2596877f76c075e115f755de63d62f25de12c60",
+      "source_sha256": "08acba4b1e56cf490f869c87c583f64d4c707b576fc98639cd31c8f30d66fafe",
+      "destination_path": "pki/harbor-csr.cnf",
+      "destination_blob": "b2596877f76c075e115f755de63d62f25de12c60",
+      "destination_sha256": "08acba4b1e56cf490f869c87c583f64d4c707b576fc98639cd31c8f30d66fafe",
+      "git_mode": "100644",
+      "transformation": "none",
+      "source_url": "https://github.com/321Team/infra-cicd/blob/90f2f37d9e1ab77252b50e80bca339cfef48bd51/pki/harbor-csr.cnf"
+    },
+    {
+      "source_repository": "321Team/infra-cicd",
+      "source_commit": "90f2f37d9e1ab77252b50e80bca339cfef48bd51",
+      "source_path": "pki/harbor-leaf.ext",
+      "source_blob": "9981ba8c37468ba3bb1f460b5cda7584c8b33a22",
+      "source_sha256": "9d441871b3dc1f1b4fb6936f934284a492f47aa1551b9e62a45dd9fb14cfd19c",
+      "destination_path": "pki/harbor-leaf.ext",
+      "destination_blob": "9981ba8c37468ba3bb1f460b5cda7584c8b33a22",
+      "destination_sha256": "9d441871b3dc1f1b4fb6936f934284a492f47aa1551b9e62a45dd9fb14cfd19c",
+      "git_mode": "100644",
+      "transformation": "none",
+      "source_url": "https://github.com/321Team/infra-cicd/blob/90f2f37d9e1ab77252b50e80bca339cfef48bd51/pki/harbor-leaf.ext"
+    },
+    {
+      "source_repository": "321Team/infra-cicd",
+      "source_commit": "90f2f37d9e1ab77252b50e80bca339cfef48bd51",
+      "source_path": "tools/pki/create_harbor_csr.py",
+      "source_blob": "2843a65b27f78630af0d633f5f9ac31b88cd529f",
+      "source_sha256": "d9fbed640f3e7e67722cb1651e04531556589abac643e1916cb2f493ce2ac12d",
+      "destination_path": "tools/pki/create_harbor_csr.py",
+      "destination_blob": "2843a65b27f78630af0d633f5f9ac31b88cd529f",
+      "destination_sha256": "d9fbed640f3e7e67722cb1651e04531556589abac643e1916cb2f493ce2ac12d",
+      "git_mode": "100644",
+      "transformation": "none",
+      "source_url": "https://github.com/321Team/infra-cicd/blob/90f2f37d9e1ab77252b50e80bca339cfef48bd51/tools/pki/create_harbor_csr.py"
+    },
+    {
+      "source_repository": "321Team/infra-cicd",
+      "source_commit": "90f2f37d9e1ab77252b50e80bca339cfef48bd51",
+      "source_path": "tools/pki/test_create_harbor_csr.py",
+      "source_blob": "e74852f642b16c5cd427334ad3f68082b14440ac",
+      "source_sha256": "978ff167aff988a4e4124bbb9d1ad17b49ee4fccab69a64818326ba79aff80c3",
+      "destination_path": "tools/pki/test_create_harbor_csr.py",
+      "destination_blob": "e74852f642b16c5cd427334ad3f68082b14440ac",
+      "destination_sha256": "978ff167aff988a4e4124bbb9d1ad17b49ee4fccab69a64818326ba79aff80c3",
+      "git_mode": "100644",
+      "transformation": "none",
+      "source_url": "https://github.com/321Team/infra-cicd/blob/90f2f37d9e1ab77252b50e80bca339cfef48bd51/tools/pki/test_create_harbor_csr.py"
+    },
+    {
+      "source_repository": "321Team/infra-cicd",
+      "source_commit": "90f2f37d9e1ab77252b50e80bca339cfef48bd51",
+      "source_path": "tools/pki/VALIDATION.md",
+      "source_blob": "7e4c7eab7c0b140e41459b76381a45fd078ed7b1",
+      "source_sha256": "0ae26573e8a18a4cee80f7a735d8da25e9b9f0100c3256eca47db8d95859ae82",
+      "destination_path": "references/infra-cicd/tools/pki/VALIDATION.md",
+      "destination_blob": "7e4c7eab7c0b140e41459b76381a45fd078ed7b1",
+      "destination_sha256": "0ae26573e8a18a4cee80f7a735d8da25e9b9f0100c3256eca47db8d95859ae82",
+      "git_mode": "100644",
+      "transformation": "none",
+      "source_url": "https://github.com/321Team/infra-cicd/blob/90f2f37d9e1ab77252b50e80bca339cfef48bd51/tools/pki/VALIDATION.md"
+    },
+    {
+      "source_repository": "321Team/infra-cicd",
+      "source_commit": "90f2f37d9e1ab77252b50e80bca339cfef48bd51",
+      "source_path": "docs/harbor-formalization.md",
+      "source_blob": "910f7e09d986e332cc4e1e393a5b79ab4679039e",
+      "source_sha256": "82967aededc2f973907f376f85db77c7d5d302c24af82f51538f577d1e0fa663",
+      "destination_path": "references/infra-cicd/docs/harbor-formalization.md",
+      "destination_blob": "910f7e09d986e332cc4e1e393a5b79ab4679039e",
+      "destination_sha256": "82967aededc2f973907f376f85db77c7d5d302c24af82f51538f577d1e0fa663",
+      "git_mode": "100644",
+      "transformation": "none",
+      "source_url": "https://github.com/321Team/infra-cicd/blob/90f2f37d9e1ab77252b50e80bca339cfef48bd51/docs/harbor-formalization.md"
+    },
+    {
+      "source_repository": "321Team/infra-cicd",
+      "source_commit": "90f2f37d9e1ab77252b50e80bca339cfef48bd51",
+      "source_path": "docs/decisions/p1-cicd-01-roles.md",
+      "source_blob": "bbaa717b99d98a38dc36e1b0a6e3c0cc127a681c",
+      "source_sha256": "f6f3a26fbd408b85ea5225aacefee43f5b0f95d0b421fb503a4f0d2595d793ac",
+      "destination_path": "references/infra-cicd/docs/decisions/p1-cicd-01-roles.md",
+      "destination_blob": "bbaa717b99d98a38dc36e1b0a6e3c0cc127a681c",
+      "destination_sha256": "f6f3a26fbd408b85ea5225aacefee43f5b0f95d0b421fb503a4f0d2595d793ac",
+      "git_mode": "100644",
+      "transformation": "none",
+      "source_url": "https://github.com/321Team/infra-cicd/blob/90f2f37d9e1ab77252b50e80bca339cfef48bd51/docs/decisions/p1-cicd-01-roles.md"
+    }
+  ]
+}
