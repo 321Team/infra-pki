@@ -34,3 +34,7 @@ GitHub 제공 ubuntu-24.04, contents:read, checkout credential 비보존, repo �
 [원본 Run 34962038714 / Attempt 1](https://github.com/321Team/infra-cicd/actions/runs/34962038714/attempts/1), 원본 SHA `ffaa764623c5941b14fe12384e9ba5629bd60a6f`, 2026-09-15 20:12 KST는 success다. Job `104357653976`의 검증 step success를 재확인했다. [P1-CICD-01 #16](https://github.com/321Team/fds-project-baseline/issues/16)에 수집기17 + CSR11 = 28건 OK로 기록되어 있다. 이는 원본 Linux 시험 이력이며 신규 저장소의 재실행이 아니다.
 
 그 run의 tree와 현재 이관본에서 `pki/root-ca.cnf`, `pki/harbor-csr.cnf`, `pki/harbor-leaf.ext`, `tools/pki/create_harbor_csr.py`, `tools/pki/test_create_harbor_csr.py` 5개 Git blob·mode가 동일하다. 상대 경로도 유지한다. 신규 저장소 Linux CSR11은 여전히 NOT RUN이다. 독립 검토자는 동일한 snapshot 이관 범위의 제한 수용 여부를 명시하고, 로직/프로파일/의존성/실행 경로 변경 시 해당 시험을 다시 요구한다. 이 기록으로 발급/Trust/Runtime을 승인하지 않는다.
+
+## 2026-09-18 승인 절차 변경
+
+[사용자 변경결정](https://github.com/321Team/fds-project-baseline/blob/38f682141c279807050c5b1ea1b4e2b58ee22d63/governance/REVIEW_AUTHORITY_POLICY.md)에 따라 독립 리뷰는 코드 병합에 한정한다. 이번 보완은 정책·대응표·README·PR 양식·이 검증 설명의 Markdown 5개 변경이며, 기존 코드·Workflow·이관 manifest와 시험 이력은 보존한다. 이관 PR 전체에는 코드가 포함되므로 독립 리뷰가 계속 필요하다. 코드 외 Runtime·증적 수용·인수·종결은 해당 Lead가 결정한다. 이번 문서 보완으로 CI/Runtime을 새로 수행하거나 과거 검증 상태를 상향하지 않는다.
