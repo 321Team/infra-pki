@@ -1,0 +1,18 @@
+# Candidate RSA server profile. Operational use requires reviewed source.
+[ req ]
+prompt = no
+default_md = sha256
+distinguished_name = dn
+req_extensions = request_extensions
+
+[ dn ]
+C = KR
+O = FDS
+OU = Monitoring
+CN = monitor01
+
+[ request_extensions ]
+subjectAltName = @sans
+
+[ sans ]
+IP.1 = 10.250.10.30
