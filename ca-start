@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Short entry point for the offline ca01 text console.
+set -euo pipefail
+MON_PACKAGE_ROOT=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)
+exec env -u BASH_ENV -u ENV PATH=/usr/sbin:/usr/bin:/sbin:/bin \
+  /bin/bash --noprofile --norc \
+  "$MON_PACKAGE_ROOT/tools/pki/monitor01-ca-console.sh" "$@"
